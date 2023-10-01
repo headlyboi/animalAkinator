@@ -11,7 +11,7 @@ public class MessagesRu {
 
     private final String no = "нет";
 
-    private final String startMessage = "Загадай животное. Я попробую отгадать (да/нет)";
+    private final String startMessage = "Загадай животное. Я попробую отгадать";
 
     private final String endMessage = "Спасибо за игру. Удачи";
 
