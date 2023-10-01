@@ -65,6 +65,7 @@ public class AnimalQuestionGame implements Game {
                         String newAnimal = input.getInput();
                         if (animalNodeTree.containsNode(newAnimal)) {
                             output.alreadyKnowAnimalMessage();
+                            break;
                         }
                         output.printQuestionAboutDiffTwoAnimals(currentNode.getAnimal(), newAnimal);
                         String newQuestion = input.getInput();
