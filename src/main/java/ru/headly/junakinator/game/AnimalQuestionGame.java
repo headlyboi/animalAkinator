@@ -67,10 +67,10 @@ public class AnimalQuestionGame implements Game {
                             output.alreadyKnowAnimalMessage();
                             break;
                         }
-                        output.printQuestionAboutDiffTwoAnimals(currentNode.getAnimal(), newAnimal);
+                        output.printQuestionAboutDiffTwoAnimals(currentNode.getAnimal().toLowerCase(), newAnimal.toLowerCase());
                         String newQuestion = input.getInput();
-                        currentNode.setQuestion(newQuestion);
-                        currentNode.setNo(new AnimalNode(currentNode.getAnimal()));
+                        currentNode.setQuestion(newQuestion.toLowerCase());
+                        currentNode.setNo(new AnimalNode(currentNode.getAnimal().toLowerCase()));
                         currentNode.setYes(new AnimalNode(newAnimal));
                         break;
                     default:
