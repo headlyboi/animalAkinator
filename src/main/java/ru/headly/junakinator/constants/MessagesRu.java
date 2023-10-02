@@ -19,7 +19,7 @@ public class MessagesRu {
 
     private final String resultQuestion ="Это %s?";
 
-    private final String incorrectInput = "Некорректный ответ. Пожалуйста, введите 'да' или 'нет'";
+    private final String incorrectInput = "Некорректный ответ. Введите да или нет (регистр не важен)";
 
     private final String questionAboutRepeat = "Хочешь сыграть еще раз? (да/нет)";
 
