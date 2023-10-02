@@ -25,7 +25,7 @@ public class MessagesRu {
 
     private final String questionAboutDiff = "Чем %s отличается от %s?";
 
-    private final String defeatMessage = "Я сдаюсь. Какое животное ты загадал?";
+    private final String defeatMessage = "Какое животное ты загадал?";
 
     private final String empty = "";
 
